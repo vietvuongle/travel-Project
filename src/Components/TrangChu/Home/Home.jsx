@@ -38,7 +38,7 @@ const Home = () => {
                     <div className="destinationInput">
                         <label htmlFor="city">Ní muốn đi đâu:</label>
                         <div className="input flex">
-                            <input type="text" placeholder="Nhập địa điểm..." />
+                            <input type="text" placeholder="Nhập địa điểm..." id="city" />
                             <GrLocation className="icon" />
                         </div>
                     </div>
@@ -46,7 +46,7 @@ const Home = () => {
                     <div className="dateInput">
                         <label htmlFor="date">Chọn ngày đi ní:</label>
                         <div className="input flex">
-                            <input type="date" />
+                            <input type="date" id="date" />
                         </div>
                     </div>
 
@@ -56,7 +56,7 @@ const Home = () => {
                             <h3 className="total">10.000.000</h3>
                         </div>
                         <div className="input flex">
-                            <input type="range" max="10000000" min="0" />
+                            <input type="range" max="10000000" min="0" id="price" />
                         </div>
                     </div>
 
