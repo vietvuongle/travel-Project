@@ -62,7 +62,7 @@ function Vehicle() {
                             </div>
                             
                             <div className={cx('mb-4')}>
-                                <label className={cx('block')} >Tỉnh Thành</label>
+                                <label className={cx('block')} >Khu Vực</label>
                                 <select className={cx('input-border')}>
                                     <option></option>
                                 </select>
@@ -75,6 +75,9 @@ function Vehicle() {
                                     <option value="2">Hết Xe</option>
                                 </select>
                             </div>
+                            <div className='btn-submit'>
+                                <button type='submit'>Thêm Mới</button>
+                            </div>
                         </div>
                         
                         <div className={cx('content-header')}>
@@ -85,7 +88,7 @@ function Vehicle() {
                                         <th>Tên Dịch vụ</th>
                                         <th>Loại Dịch Vụ</th>
                                         <th>Chỗ ngồi</th>
-                                        <th>Tỉnh Thành</th>
+                                        <th>Khu Vực</th>
                                         <th>Trạng Thái</th>
                                     </tr>
                                 </thead>

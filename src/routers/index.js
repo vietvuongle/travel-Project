@@ -1,5 +1,5 @@
 import TrangChu from '../Components/TrangChu/Trangchu';
-import Operator from '../Components/pages/Operator';
+import Operator from '../Components/pages/Operator/Guest';
 import Login from '../Components/TrangChu/Login/Login';
 import Vehicle from '../Components/pages/Operator/Vehicle';
 import Place from '../Components/pages/Operator/Place';

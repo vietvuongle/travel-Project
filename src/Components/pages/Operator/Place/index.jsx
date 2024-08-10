@@ -53,7 +53,7 @@ function Place() {
                                 <input type="text" className={cx('input-border')} />
                             </div>
                             <div className={cx('mb-4')}>
-                                <label className={cx('block')} >ID Tỉnh Thành</label>
+                                <label className={cx('block')} >Khu Vực</label>
                                 <select className={cx('input-border')}>
                                     <option></option>
                                 </select>
@@ -65,6 +65,9 @@ function Place() {
                             <div className={cx('mb-4')}>
                                 <label className={cx('block')}>Hình Ảnh</label>
                                 <input type="file" />
+                            </div>
+                            <div className='btn-submit'>
+                                <button type='submit'>Thêm Mới</button>
                             </div>
                         </div>
                         
